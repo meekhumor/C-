@@ -1,0 +1,26 @@
+#include<iostream>
+#include<algorithm>
+#include<vector>
+#include<string>
+#include<sstream>
+#include<math.h>
+using namespace std;
+
+int fact(int n)
+{
+    // base case
+    if(n==1 || n==0) return 1;
+    // recursive call
+    return n * fact(n-1);
+}
+
+int main()
+{
+    system("cls");
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+
+    cout<<fact(n);
+    return 0;
+}
