@@ -1,9 +1,4 @@
-#include<iostream>
-#include<algorithm>
-#include<vector>
-#include<string>
-#include<sstream>
-#include<math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 void remove(int arr[], int n, int idx, vector<int> ans)

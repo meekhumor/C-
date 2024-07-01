@@ -1,9 +1,4 @@
-#include<iostream>
-#include<algorithm>
-#include<vector>
-#include<string>
-#include<sstream>
-#include<math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 void paran(string s,int n, vector<string> &v, int open, int close)

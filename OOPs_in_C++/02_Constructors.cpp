@@ -36,6 +36,7 @@ int main() {
   Employee employee1 = Employee("Om", 18, "Male");
   Employee *ptr = &employee1; // ptr mein employee1 ka address store ho rha hai
   (*ptr).Name = "Harsh";
+  ptr->Age = "19";  // similar to above
   cout << employee1.Name;
 
   employee1.Introduce();

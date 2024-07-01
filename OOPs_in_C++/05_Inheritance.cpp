@@ -1,11 +1,6 @@
 // Inheritance is a feature or a process in which, new classes are created from the existing classes
 
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <string>
-#include <sstream>
-#include <math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Employee

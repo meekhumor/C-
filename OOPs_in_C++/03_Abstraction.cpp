@@ -1,11 +1,6 @@
 // It involves selectively revealing essential information to the user while hiding non-essential implementation details. Here are the key points about data abstraction
 
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <string>
-#include <sstream>
-#include <math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class AbstractEmployee // Abstract Class

@@ -1,9 +1,4 @@
-#include<iostream>
-#include<algorithm>
-#include<vector>
-#include<string>
-#include<sstream>
-#include<math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 // No. of ways a boy can reach upstair if he steps 1 or 2 

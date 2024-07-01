@@ -1,9 +1,4 @@
-#include<iostream>
-#include<algorithm>
-#include<vector>
-#include<string>
-#include<sstream>
-#include<math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int missingNumber(vector<int>& nums)

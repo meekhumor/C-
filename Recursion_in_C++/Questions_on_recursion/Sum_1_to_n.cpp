@@ -1,6 +1,4 @@
-#include<iostream>
-#include<sstream>
-#include<math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 // void sum(int i,int n)

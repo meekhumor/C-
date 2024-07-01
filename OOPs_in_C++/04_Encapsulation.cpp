@@ -1,11 +1,6 @@
 // It’s like wrapping up a gift: the data and its related functionality are neatly packaged together.
 
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <string>
-#include <sstream>
-#include <math.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Employee

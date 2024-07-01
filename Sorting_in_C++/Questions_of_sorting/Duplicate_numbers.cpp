@@ -1,10 +1,5 @@
- #include<iostream>
- #include<algorithm>
- #include<vector>
- #include<string>
- #include<sstream>
- #include<math.h>
- using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
  
  int findDuplicate(vector<int>& nums) 
  {

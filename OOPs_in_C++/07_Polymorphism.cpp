@@ -2,13 +2,7 @@
 // In simple words, we can define polymorphism as the ability of a message to be
 // displayed in more than one form.
 
-#include <algorithm>
-#include <iostream>
-#include <math.h>
-#include <sstream>
-#include <string>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 class Employee {
