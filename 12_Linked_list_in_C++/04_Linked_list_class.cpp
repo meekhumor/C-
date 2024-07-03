@@ -9,7 +9,7 @@ public:
         val = v;
         next = NULL;
     }
-}
+};
 class LinkedList{
 public:
     Node *head;
@@ -19,25 +19,25 @@ public:
     LinkedList(){
         head = NULL;
         tail = NULL;
+        size = 0;
     }
     void insertAtHead(int val){
         Node *temp = new Node(val);
-        temp->next = head;
-        head = temp;
-        if(tail == NULL){
-            tail = temp;
+        if(size == 0) head = tail = temp;
+        else{
+            temp->next = head;
+            head = temp;
         }
+        size++;
     }
     void insertAtTail(int val){
         Node *temp = new Node(val);
-        if(head == NULL){
-            head = temp;
-            tail = temp;
-        }
+        if(size == 0) head = tail = temp;
         else{
             tail->next = temp;
             tail = temp;
         }
+        size++;
     }
     void insertAtIdx(int val, int idx){
         if(idx<0 || idx>size) cout<<"Invalid Index";
@@ -59,47 +59,46 @@ public:
         }
     }
     void deleteAtHead(){
-        if(head == NULL){
-            cout << "List is empty" << endl;
+        if(size == 0){
+            cout<<"List_is_Empty ";
+            return;
         }
-        else{
-            Node *temp = head;
-            head = head->next;
-            delete temp;
-        }
+        head = head->next;
+        size--;
     }
     void deleteAtTail(){
-        if(head == NULL){
-            cout << "List is empty" << endl;
+        if(size == 0){
+            cout<<"List_is_Empty ";
+            return;
         }
-        else if(head == tail){
-            deleteAtHead();
+        Node *temp = head;
+        while(temp->next!= tail){
+            temp = temp->next;
         }
-        else{
-            Node *temp = head;
-            while(temp->next!= tail){
-                temp = temp->next;
-            }
-            tail = temp;
-            tail->next = NULL;
-            delete temp;
-        }
+        tail->next = NULL;
+        tail = temp;
+        size--;
     }
     void deleteAtIdx(int idx){
-        if(head == NULL){
-            cout << "List is empty" << endl;
+        if(size == 0){
+            cout<<"List_is_Empty ";
+            return;
         }
         else if(idx == 0){
             deleteAtHead();
+            return;
+        }
+        else if(idx == size-1){
+            deleteAtTail();
+            return;
         }
         else{
             Node *temp = head;
-            for(int i = 1; i < idx-1; i++){
+            for(int i=0; i<idx-1; i++){
                 temp = temp->next;
             }
-            Node *delNode = temp->next;
-            temp->next = delNode->next;
-            delete delNode;
+            temp->next = temp->next->next;
+            size--;
         }
     }
     void display(){
@@ -121,9 +120,13 @@ int main()
 {
     system("cls");
     LinkedList ll;
+    ll.display();
     ll.insertAtTail(29);
+    ll.display();
     ll.insertAtHead(2);
+    ll.display();
     ll.insertAtIdx(10,1);
+    ll.display();
     ll.deleteAtIdx(0);
     ll.display();
 
