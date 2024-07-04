@@ -1,6 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void print(stack<int> st)
+{
+    stack<int> temp;
+    while(st.size()>0){
+        temp.push(st.top());
+        st.pop();
+    }
+    while(temp.size()>0){
+        cout<<temp.top()<<" ";
+        st.push(temp.top());
+        temp.pop();
+    }
+    cout<<endl;
+}
+
 int main()
 {
     system("cls");

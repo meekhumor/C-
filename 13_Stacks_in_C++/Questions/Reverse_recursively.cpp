@@ -1,21 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print(stack<int> st)
-{
-    stack<int> temp;
-    while(st.size()>0){
-        temp.push(st.top());
-        st.pop();
-    }
-    while(temp.size()>0){
-        cout<<temp.top()<<" ";
-        st.push(temp.top());
-        temp.pop();
-    }
-    cout<<endl;
-}
-
 void pushAtBottom(stack<int> &st, int val){
     stack<int> temp;
     while(st.size()>0){
@@ -29,17 +14,27 @@ void pushAtBottom(stack<int> &st, int val){
     }
 }
 
-// Recursively
-void pushAtBottomRec(stack<int> &st, int val){
+void displayrec(stack<int> &st){
     if(st.size()==0){
-        st.push(val);
         return;
     }
     int x = st.top();
     st.pop();
-    pushAtBottomRec(st, val);
+    displayrec(st);
+    cout<<x<<" ";
     st.push(x);
 }
+
+void reverseRec(stack<int> &st){
+    if(st.size()==1){
+        return;
+    }
+    int x = st.top();
+    st.pop();
+    reverseRec(st);
+    pushAtBottom(st,x);
+}
+
 int main()
 {
     system("cls");
@@ -49,10 +44,9 @@ int main()
     st.push(30);
     st.push(40);
     st.push(50);
-    print(st);
-    pushAtBottom(st, 60);
-    print(st);
-    pushAtBottomRec(st, 90);
-    print(st);
+    displayRec(st);
+    reverseRec(st);
+    displayRec(st);
+    
     return 0;
 }
