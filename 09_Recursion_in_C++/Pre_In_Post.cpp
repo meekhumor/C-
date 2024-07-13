@@ -6,10 +6,14 @@ void pip(int n)
     if(n==0) return;
     cout<<"Pre "<<n<<endl;
     pip(n-1);
-    cout<<"In "<<n<<endl;
+    // cout<<"In "<<n<<endl;
     pip(n-1);
-    cout<<"Post "<<n<<endl;
+    // cout<<"Post "<<n<<endl;
 }
+// Work before two recursion call: Pre
+// Work in middle of two recursion call: In
+// Work after two recursion call: Post
+
 int main()
 {
     system("cls");
