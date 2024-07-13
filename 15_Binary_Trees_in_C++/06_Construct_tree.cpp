@@ -24,6 +24,7 @@ void levelOrderQueue(Node* root){
     cout<<endl;
 }
 
+
 Node* construct(int arr[], int n){
     queue<Node*> q;
     Node* root = new Node(arr[0]);
