@@ -19,8 +19,11 @@ int main()
     m["Lokesh"] = 34;
     m["Rahul"] = 35;
     
-    for (pair<string,int> p : m){
+    for (auto p : m){
         cout<<p.first<<" "<<p.second<<endl;
     }
+    // for (pair<string,int> p : m){
+    //     cout<<p.first<<" "<<p.second<<endl;
+    // }
     return 0;
 }
