@@ -19,7 +19,7 @@ void permutations(string ans, string original)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     string str;
     cout<<"Enter a string: ";
     getline(cin,str);

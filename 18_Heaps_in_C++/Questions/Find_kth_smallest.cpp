@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int arr[] = {10, 20, -4, 5, 1, 24, 1, -7, 56};
     int k = 4;
     int n = sizeof(arr)/4;

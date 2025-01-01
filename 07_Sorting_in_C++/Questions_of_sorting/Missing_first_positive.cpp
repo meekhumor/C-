@@ -18,7 +18,7 @@ int firstMissingPositive(vector<int>& nums)
     }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter a size of array: ";
     cin>>n;

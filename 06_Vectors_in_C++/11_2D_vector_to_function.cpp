@@ -8,7 +8,7 @@ void change(vector<vector<int>> &v)
 }
 int main()
 {
-    system("cls"); 
+    system("clear"); 
 
     vector<vector<int>> matrix(3 /*rows*/ , vector<int> (2 /*column*/, 0 /*Giving values to matrix*/));
     int row = matrix.size();

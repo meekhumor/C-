@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int x;
     int *ptr = &x; // used to store address of datatype
     int **dptr = &ptr; // used to store address of pointer

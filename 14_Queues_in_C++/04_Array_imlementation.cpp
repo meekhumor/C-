@@ -55,7 +55,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     Queue q;
     
     q.push(10);

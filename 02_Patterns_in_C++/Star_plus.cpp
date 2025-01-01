@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int row;
     cout<<"Enter a odd row: ";
     cin>>row;

@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v(5,7); // initial size = 5, each element has value 7 
 
     cout<<"Size of vector: "<<v.size()<<endl;

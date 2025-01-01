@@ -54,7 +54,7 @@ void nextpermutation(vector<int> &v)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v;
 
     int s;
@@ -121,7 +121,7 @@ int main()
 // }
 // int main()
 // {
-//     system("cls");
+//     system("clear");
 //     vector<int> v;
 
 //     int s;

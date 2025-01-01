@@ -11,7 +11,7 @@ void swap(int &a, int &b) // pass by reference
 
 int main()
 {
-    system("cls");
+    system("clear");
     int a, b;
     cout<<"Enter a and b: ";
     cin>>a>>b;
@@ -29,7 +29,7 @@ int main()
 
 // int main()
 // {
-//     system("cls");
+//     system("clear");
 //     int a, b;
 //     cout<<"Enter a and b: ";
 //     cin>>a>>b;

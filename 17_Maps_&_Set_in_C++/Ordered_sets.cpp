@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     set<int> s;
     s.insert(5);
     s.insert(10);

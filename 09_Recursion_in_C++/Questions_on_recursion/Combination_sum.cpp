@@ -25,7 +25,7 @@ void combination(vector<int> ans, int arr[], int n, int k, int idx)
 }
 int main()
 {
-    system("cls");
+    system("clear");
 
     int  n;
     cout<<"Enter size of array: ";

@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system ("cls");
+    system ("clear");
 
     int row1;
     cout<<"Enter row of matrix 1: ";

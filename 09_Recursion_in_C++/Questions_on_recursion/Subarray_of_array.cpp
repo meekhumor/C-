@@ -23,7 +23,7 @@ void subarray(vector<int> v, int arr[], int n, int idx)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int  n;
     cout<<"Enter size of array: ";
     cin>>n;

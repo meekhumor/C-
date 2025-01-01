@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int x;
     cout<< &x<<endl;  // address of x in memory
     x = 9;

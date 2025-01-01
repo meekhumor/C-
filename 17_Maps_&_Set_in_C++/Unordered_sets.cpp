@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     unordered_set<int> s;
     s.insert(1);
     s.insert(2);

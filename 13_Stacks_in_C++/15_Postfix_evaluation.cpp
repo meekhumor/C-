@@ -11,7 +11,7 @@ int solve(int a, int b, char ch)
 
 int main()
 {
-    system("cls");
+    system("clear");
     string s = "79+4*8/3-"; // postfix
 
     // One stack for values

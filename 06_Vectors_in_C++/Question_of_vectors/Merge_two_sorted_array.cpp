@@ -34,7 +34,7 @@ void display(vector<int> &v)
 
 int main()
 {
-    system("cls");
+    system("clear");
     int m, n;
     cout<<"Enter size of 1st array: ";
     cin>>m;

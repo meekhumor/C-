@@ -75,7 +75,7 @@ void count(vector<int> &v)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int  n;
     cout<<"Enter size of array : ";
     cin>>n;

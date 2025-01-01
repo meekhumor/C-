@@ -37,7 +37,7 @@ bool isIsomorphic(string s, string t)
 
 int main()
 {
-    system("cls");
+    system("clear");
     string s,t;
     cout<<"Enter first string: ";
     getline(cin,s);

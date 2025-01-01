@@ -78,7 +78,7 @@ int search(vector<int>& nums, int target)
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v; 
     int size;
     cout<<"Enter size of array: ";

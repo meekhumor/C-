@@ -50,7 +50,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Developer d = Developer("Om", 18, "Male", "C++");
     d.fixBug();

@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int  n;
     cout<<"Enter size of array : ";
     cin>>n;

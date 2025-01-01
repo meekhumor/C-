@@ -16,7 +16,7 @@ void generate(string s, int n)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter length: ";
     cin>>n;

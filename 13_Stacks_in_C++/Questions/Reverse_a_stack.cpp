@@ -19,7 +19,7 @@ void print(stack<int> st)
 // reverse stack (using 3 stacks)
 int main()
 {
-    system("cls");
+    system("clear");
     stack<int> st;
     st.push(10);
     st.push(20);

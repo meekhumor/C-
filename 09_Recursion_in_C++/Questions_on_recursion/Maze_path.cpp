@@ -11,7 +11,7 @@ int maze(int sr,int sc, int er, int ec)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int sr;
     cout<<"Enter starting row: ";
     cin>>sr;

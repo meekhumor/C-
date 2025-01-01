@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int arr[] = {10,9,8,7,4,70,60,50};
     int k = 4;
     int n = sizeof(arr)/sizeof(arr[0]);

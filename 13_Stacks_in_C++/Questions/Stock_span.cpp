@@ -21,7 +21,7 @@ vector<int> stockSpan(vector<int>arr)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v{100,80,60,81,70,60,75,85};
     v = stockSpan(v);
     for (int i = 0; i < v.size(); i++) cout<<v[i]<<" ";

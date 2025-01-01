@@ -32,7 +32,7 @@ public:
 };
 
 int main() {
-  system("cls");
+  system("clear");
   Employee employee1 = Employee("Om", 18, "Male");
   Employee *ptr = &employee1; // ptr mein employee1 ka address store ho rha hai
   (*ptr).Name = "Harsh"; // (*ptr).Name == ptr->Name (Both are same)

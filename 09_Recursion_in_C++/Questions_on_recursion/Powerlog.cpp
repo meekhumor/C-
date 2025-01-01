@@ -18,7 +18,7 @@ int power(int n, int p)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter a base: ";
     cin>>n;

@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<< "Enter number of arrays you want to form: ";
     cin>>n;

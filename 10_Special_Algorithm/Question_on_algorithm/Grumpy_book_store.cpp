@@ -43,7 +43,7 @@ int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes)
     
 int main()
 {
-    system("cls");
+    system("clear");
     int v;
     cout<<"Enter size of customer vector: ";
     cin>>v;

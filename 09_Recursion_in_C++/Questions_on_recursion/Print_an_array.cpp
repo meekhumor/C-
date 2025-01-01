@@ -9,7 +9,7 @@ void display(int arr[], int n, int i)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int  n;
     cout<<"Enter size of array: ";
     cin>>n;

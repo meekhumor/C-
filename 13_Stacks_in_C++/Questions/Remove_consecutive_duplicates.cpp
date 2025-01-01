@@ -20,7 +20,7 @@ string removeDuplicates(string s)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     string s = "aaabbcddaaabffg";
     cout<<s<<endl;
 

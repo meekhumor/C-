@@ -28,7 +28,7 @@ void remove(string ans, string ori, int idx)
 
 int main()
 {
-    system("cls");
+    system("clear");
     string str;
     cout<<"Enter a string: ";
     getline(cin,str);

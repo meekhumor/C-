@@ -18,7 +18,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     Employee employee1; // employee1 is object
     employee1.Name = "OM";
     employee1.Age = 18;

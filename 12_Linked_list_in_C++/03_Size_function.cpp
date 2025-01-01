@@ -23,7 +23,7 @@ void size(Node* head){
 
 int main()
 {
-    system("cls");
+    system("clear");
     Node* a = new Node(10); // adress of new node is stored in pointer a
     Node* b = new Node(20);
     Node* c = new Node(30);

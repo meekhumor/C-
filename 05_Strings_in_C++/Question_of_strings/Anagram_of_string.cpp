@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     string s,t;
     cout<<"Enter first word: ";
     getline(cin,s);

@@ -11,7 +11,7 @@ int stair(int n)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter a number: ";
     cin>>n;

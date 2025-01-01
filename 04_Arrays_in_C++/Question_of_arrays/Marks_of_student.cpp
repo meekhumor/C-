@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Total no. of students: ";
     cin>>n;

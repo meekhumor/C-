@@ -37,7 +37,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     Stack st;
     st.push(10);
     st.push(20);

@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     map<int,int> m;
     m[2] = 20;
     m[1] = 30;

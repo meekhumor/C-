@@ -13,7 +13,7 @@ int solve(int a, int b, char ch)
 
 int main()
 {
-    system("cls");
+    system("clear");
     string s = "-/*+79483"; // prefix
 
     // One stack for values

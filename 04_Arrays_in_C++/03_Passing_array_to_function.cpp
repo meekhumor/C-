@@ -15,7 +15,7 @@ void change(int b[], int size)
 }
 int main()
 {
-    system("cls");
+    system("clear");
 
     int arr[5] = {1,4,2,7,4};
     int size = sizeof(arr)/sizeof(arr[0]);

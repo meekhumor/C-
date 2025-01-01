@@ -89,7 +89,7 @@ display(v);
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<string> v;
 
     int size;

@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v;
     int arr[] = {2, -3, 4, 4, -7, -1, 4, -2, 6}; // Ans should be: {-3,-3,-7,-7,-7,-1,-2}
     int n = sizeof(arr) / sizeof(arr[0]);

@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v;
     int x;
     cout<<"Enter the number you want to find: ";

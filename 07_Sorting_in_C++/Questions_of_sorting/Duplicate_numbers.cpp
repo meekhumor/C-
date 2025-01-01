@@ -15,7 +15,7 @@ using namespace std;
     }
  int main()
  {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter a size of array: ";
     cin>>n;

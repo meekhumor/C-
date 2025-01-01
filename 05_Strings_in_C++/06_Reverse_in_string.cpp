@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     string s ="abcdef";
     cout<<s<<endl;
     reverse(s.begin()+2,s.end()-1);

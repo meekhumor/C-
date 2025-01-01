@@ -23,7 +23,7 @@ int peakIndexInMountainArray(vector<int>& arr)
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v; 
     int size;
     cout<<"Enter size of array: ";

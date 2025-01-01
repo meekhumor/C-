@@ -4,7 +4,7 @@ using namespace std;    // ' '=32
 
 int main()
 {
-    system("cls");
+    system("clear");
     string str;
     cout<<"Enter a sentence: ";
     getline(cin,str);

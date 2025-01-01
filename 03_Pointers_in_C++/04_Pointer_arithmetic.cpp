@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int x = 7;
     int *ptr = &x;
     cout<<ptr<<endl; // 0x61ff08

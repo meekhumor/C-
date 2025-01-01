@@ -36,7 +36,7 @@ void remove(string ans, string ori, vector<string> &v, bool flag)
 
 int main()
 {
-    system("cls");
+    system("clear");
     string str;
     cout<<"Enter a string: ";
     getline(cin,str);

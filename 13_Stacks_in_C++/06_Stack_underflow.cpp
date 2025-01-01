@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     stack<int> st;
     st.pop();
     st.top();

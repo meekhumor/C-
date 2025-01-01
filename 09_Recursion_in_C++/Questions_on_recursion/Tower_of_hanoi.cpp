@@ -18,7 +18,7 @@ void hanoi(int n, char s, char h, char d)
 
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter no. of rings: ";
     cin>>n;

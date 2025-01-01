@@ -18,7 +18,7 @@ bool isPalindrome(int x)
 
 int main()
 {
-    system("cls");
+    system("clear");
     int x = -12345;
     string s = to_string(x);
 

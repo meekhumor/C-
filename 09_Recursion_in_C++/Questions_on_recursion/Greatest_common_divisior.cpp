@@ -11,7 +11,7 @@ void gcd(int min, int max)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int a,b;
     cout<<"Enter any 2 numbers: ";
     cin>>a>>b;

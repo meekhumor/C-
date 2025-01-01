@@ -20,7 +20,7 @@ vector<int> nextGreatest(vector<int>arr)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v{3,1,2,5,4,6,2,3};
     v = nextGreatest(v);
     for (int i = 0; i < v.size(); i++) cout<<v[i]<<" ";

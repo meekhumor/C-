@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     vector<int> v;
     v.push_back(9);

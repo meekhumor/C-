@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<vector<int>> matrix(3 /*rows*/ , vector<int> (2 /*column*/));
     int row = matrix.size();
     int column = matrix[0].size();

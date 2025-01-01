@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int *ptr = NULL; //reserved address (\0 ---> null characer)
     cout<<ptr; // 0x0
     return 0;

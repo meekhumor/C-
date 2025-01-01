@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     string str = "Om is studying C++";
     cout<<str.size()<<endl; // index: 0 to length-1
     

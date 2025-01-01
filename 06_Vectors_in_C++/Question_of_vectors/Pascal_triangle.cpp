@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int numrow;
     cout<<"Enter row number: ";
     cin>>numrow;

@@ -13,7 +13,7 @@ void display(queue<int> &q){
 }
 int main()
 {
-    system("cls");
+    system("clear");
     queue<int> q;
     
     q.push(10);

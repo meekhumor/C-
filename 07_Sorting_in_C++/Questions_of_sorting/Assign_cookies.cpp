@@ -29,7 +29,7 @@ int findContentChildren(vector<int> &g, vector<int> &s)
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     int gs;
     cout<<"Enter size of greed aray: ";

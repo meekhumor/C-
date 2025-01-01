@@ -68,7 +68,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     CircularQueue q(100);
     
     q.enQueue(10);

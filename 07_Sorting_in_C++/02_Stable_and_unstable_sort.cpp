@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     
     return 0;
 }

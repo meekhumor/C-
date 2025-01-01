@@ -45,7 +45,7 @@ void sort(vector<int> &v)
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v;
 
     int n;
@@ -103,7 +103,7 @@ int main()
 
 // int main()
 // {
-//     system("cls");
+//     system("clear");
 //     vector<int> v;
 
 //     int n;

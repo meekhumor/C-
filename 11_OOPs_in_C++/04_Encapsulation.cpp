@@ -35,7 +35,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     Employee employee1 = Employee("Om", 18, "Male");
     // Employee.Name will show error
 

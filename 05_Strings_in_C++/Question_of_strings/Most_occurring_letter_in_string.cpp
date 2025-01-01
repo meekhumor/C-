@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     string s;
     cout<<"Enter a word: ";
     getline(cin,s);
@@ -40,7 +40,7 @@ int main()
 
 // int main()
 // {
-//     system("cls");
+//     system("clear");
 //     string s;
 //     cout<<"Enter a word: ";
 //     getline(cin,s);

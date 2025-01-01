@@ -42,7 +42,7 @@ void pushAtBottomRec(stack<int> &st, int val){
 }
 int main()
 {
-    system("cls");
+    system("clear");
     stack<int> st;
     st.push(10);
     st.push(20);

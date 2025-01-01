@@ -52,7 +52,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     Employee employee1 = Employee("Om", 18, "Male");
     Employee employee2 = Employee("John", 31, "Male");
 

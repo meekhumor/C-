@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v; // you need not mention the size {Syntax}
     // vector<int> v{10,20,30};
     // vector<int> v(n,10); // it is used to initialize the array with n elements with value 10

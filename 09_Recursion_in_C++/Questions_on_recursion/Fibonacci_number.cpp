@@ -10,7 +10,7 @@ int fibo(int n)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter number of iteration: ";
     cin>>n;

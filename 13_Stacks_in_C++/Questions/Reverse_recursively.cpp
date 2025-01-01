@@ -37,7 +37,7 @@ void reverseRec(stack<int> &st){
 
 int main()
 {
-    system("cls");
+    system("clear");
     stack<int> st;
     st.push(10);
     st.push(20);

@@ -13,7 +13,7 @@ void find(int n, int *ptr1, int *ptr2)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter a number: ";
     cin>>n;

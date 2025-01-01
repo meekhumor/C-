@@ -124,7 +124,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     DLL list;
     list.insertAtTail(1);
     list.display();

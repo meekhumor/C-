@@ -18,7 +18,7 @@ void print(stack<int> st)
 
 int main()
 {
-    system("cls");
+    system("clear");
     stack<int> st;
     stack<int> temp;
     st.push(10);

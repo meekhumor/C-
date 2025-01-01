@@ -20,7 +20,7 @@ string solve(string a, string b, char ch)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     string s = "(7+9)*4/8-3"; // prefix
 
     // two stacks one for numbers and one for operators

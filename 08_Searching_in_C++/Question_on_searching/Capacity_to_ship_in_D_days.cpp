@@ -73,7 +73,7 @@ int shipWithinDays(vector<int>& weights, int days)
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> weights;
     int size;
     cout<<"Enter size of array: ";

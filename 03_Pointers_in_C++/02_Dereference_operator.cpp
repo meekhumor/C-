@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int x = 10;
     int *p = &x;
 

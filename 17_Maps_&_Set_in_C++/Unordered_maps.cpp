@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     unordered_map<string, int> m;
     pair<string, int> p1;
     p1.first = "Om";

@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
 
    // When size of vector is not given
     vector<int> v;

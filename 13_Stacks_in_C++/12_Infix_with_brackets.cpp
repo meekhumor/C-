@@ -15,7 +15,7 @@ int solve(int a, int b, char ch)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     string s = "(7+9)*4/8-3"; // infix
 
     // two stacks one for numbers and one for operators

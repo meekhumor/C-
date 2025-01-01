@@ -16,7 +16,7 @@ void pip(int n)
 
 int main()
 {
-    system("cls");
+    system("clear");
     pip(3);
     return 0;
 }

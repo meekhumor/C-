@@ -20,7 +20,7 @@ void paran(string s,int n, vector<string> &v, int open, int close)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter n: ";
     cin>>n;

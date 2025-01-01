@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     string str;
     cout<<"Enter your full name: ";
     getline(cin,str);

@@ -15,7 +15,7 @@ void fun(int n)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     fun(4);
     return 0;
 }

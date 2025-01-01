@@ -11,7 +11,7 @@ int prefixsum(vector<int> nums, int si, int ei)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter size of array: ";
     cin>>n;

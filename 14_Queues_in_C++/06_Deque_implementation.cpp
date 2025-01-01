@@ -94,7 +94,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     Deque dq;
 
     dq.push_back(10);

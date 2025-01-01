@@ -17,7 +17,7 @@ void palindrome(string str, int idx, bool flag)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     string str;
     cout<<"Enter a string: ";
     getline(cin, str);

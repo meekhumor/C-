@@ -26,7 +26,7 @@ void generate(vector<int> &ans, int n, int k, int idx)
 
 int main()
 {
-    system("cls");
+    system("clear");
     int n;
     cout<<"Enter n: ";
     cin>>n;

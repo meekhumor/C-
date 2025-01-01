@@ -149,7 +149,7 @@ vector<int> findClosestElements(vector<int>& arr, int k, int x)
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v;
     int size;
     cout<<"Enter size of array: ";

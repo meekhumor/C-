@@ -40,7 +40,7 @@ void  quicksort(int arr[], int si, int ei)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     int  n;
     cout<<"Enter size of array : ";
     cin>>n;

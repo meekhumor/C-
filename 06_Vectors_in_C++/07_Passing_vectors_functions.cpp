@@ -9,7 +9,7 @@ void change(vector<int> &a) // a--> 9 10 6 1 [&a: for pass by reference]
 
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v;
     v.push_back(9);
     v.push_back(10);

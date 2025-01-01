@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int arr[] = {1,3,4,5};
 
     // int *ptr = arr;      Correct 

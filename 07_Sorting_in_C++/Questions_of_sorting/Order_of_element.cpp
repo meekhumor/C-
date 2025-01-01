@@ -11,7 +11,7 @@ void display(vector<int> &v)
 }
 int main()
 {
-    system("cls");
+    system("clear");
 
     int n;
     cout<<"Enter size of an array: ";

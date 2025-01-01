@@ -26,7 +26,7 @@ void display(vector<int> &v)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     vector<int> v;
 
     int n;

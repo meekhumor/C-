@@ -28,7 +28,7 @@ string longestCommonPrefix(vector<string> &strs)
 
 int main()
 {
-    system("cls");
+    system("clear");
     int t;
     cout<<"Enter no. of strings: ";
     cin>>t;

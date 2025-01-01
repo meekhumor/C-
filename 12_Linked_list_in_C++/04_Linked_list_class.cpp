@@ -118,7 +118,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     LinkedList ll;
     ll.display();
     ll.insertAtTail(29);

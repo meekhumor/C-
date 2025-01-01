@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system("clear");
     int r,c;
     cout<<"Enter no. of rows in array: ";
     cin>> r;
