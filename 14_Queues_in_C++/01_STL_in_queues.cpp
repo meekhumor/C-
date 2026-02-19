@@ -1,4 +1,4 @@
-// FIFO : First In First Out
+    // FIFO : First In First Out
 #include <bits/stdc++.h>
 using namespace std;
 
